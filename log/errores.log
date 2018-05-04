@@ -1,0 +1,1373 @@
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 1
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+NO insertamos varios2
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1712
+descripcion: A0 papel normal
+precio: 21
+precio: 21
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 290
+unidades: 2
+solicitud: 1712
+total: 42.00
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 290
+tipo: 7
+descricion: A2 color
+precio: 6.9299998283386
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1710
+descripcion: A2 color
+precio: 6.9299998283386
+precio: 6.9299998283386
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 290
+unidades: 1
+solicitud: 1710
+total: 6.93
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 291
+tipo: 7
+descricion: A0 papel 80
+precio: 28.00
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1735
+descripcion: A0 papel 80
+precio: 28.00
+precio: 28.00
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 291
+unidades: 1
+solicitud: 1735
+total: 28.00
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 292
+tipo: 7
+descricion: Paquete A4
+precio: 3.50
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1779
+descripcion: Paquete A4
+precio: 3.50
+precio: 3.50
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 292
+unidades: 1
+solicitud: 1779
+total: 3.50
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 2
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+NO insertamos varios2
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1779
+descripcion: A0 Color
+precio: 21.00
+precio: 21.00
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 293
+unidades: 2
+solicitud: 1779
+total: 42.00
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 1
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+NO insertamos varios2
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1779
+descripcion: A1 Color 
+precio: 10.50
+precio: 10.50
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Error Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo_id: 1
+tipo_id: 7
+detalle_id: 293
+unidades: 2
+solicitud: 1779
+preciototal: 21.00
+error: Duplicate entry '1-7-293-1779' for key 'PRIMARY'
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 293
+tipo: 7
+descricion: vinilo  0,85X1,19
+precio: 1
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1804
+descripcion: vinilo  0,85X1,19
+precio: 1
+precio: 1
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 293
+unidades: 1
+solicitud: 1804
+total: 1.00
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 294
+tipo: 7
+descricion: vinilo  0,85X1,19
+precio: 28.32
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1804
+descripcion: vinilo  0,85X1,19
+precio: 28.32
+precio: 28.32
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 294
+unidades: 1
+solicitud: 1804
+total: 28.32
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 1
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+NO insertamos varios2
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1832
+descripcion: A1 papel normal
+precio: 10.5
+precio: 10.5
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 295
+unidades: 2
+solicitud: 1832
+total: 21.00
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 295
+tipo: 7
+descricion: 90x120 papel normal
+precio: 22.68
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1848
+descripcion: 90x120 papel normal
+precio: 22.68
+precio: 22.68
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 295
+unidades: 1
+solicitud: 1848
+total: 22.68
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 1
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+NO insertamos varios2
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1859
+descripcion: A1 Color
+precio: 10.5
+precio: 10.5
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 296
+unidades: 12
+solicitud: 1859
+total: 126.00
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 296
+tipo: 7
+descricion: A3 vinilos 
+precio: 3.41
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1850
+descripcion: A3 vinilos 
+precio: 3.41
+precio: 3.41
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 296
+unidades: 2
+solicitud: 1850
+total: 6.82
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 297
+tipo: 7
+descricion: 60X80 cm
+precio: 13.44
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1850
+descripcion: 60X80 cm
+precio: 13.44
+precio: 13.44
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 297
+unidades: 1
+solicitud: 1850
+total: 13.44
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 298
+tipo: 7
+descricion: 1,20X0,40
+precio: 24
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1852
+descripcion: 1,20X0,40
+precio: 24
+precio: 24
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 298
+unidades: 1
+solicitud: 1852
+total: 24.00
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 299
+tipo: 7
+descricion: Lona 1,30 x 0,95 
+precio: 34.58
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1869
+descripcion: Lona 1,30 x 0,95 
+precio: 34.58
+precio: 34.58
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 299
+unidades: 1
+solicitud: 1869
+total: 34.58
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 1
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+NO insertamos varios2
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1872
+descripcion: Paquete 500 A4
+precio: 3.5
+precio: 3.5
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 300
+unidades: 1
+solicitud: 1872
+total: 3.50
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 300
+tipo: 7
+descricion: Carton Pluma A4 
+precio: 3.72
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1778
+descripcion: Carton Pluma A4 
+precio: 3.72
+precio: 3.72
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 300
+unidades: 2
+solicitud: 1778
+total: 7.44
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 301
+tipo: 7
+descricion: Vinilo A1
+precio: 14.00
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1905
+descripcion: Vinilo A1
+precio: 14.00
+precio: 14.00
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 301
+unidades: 2
+solicitud: 1905
+total: 28.00
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 302
+tipo: 7
+descricion: poster papel 50X70
+precio: 7.35
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1920
+descripcion: poster papel 50X70
+precio: 7.35
+precio: 7.35
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 302
+unidades: 3
+solicitud: 1920
+total: 22.05
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 303
+tipo: 7
+descricion: A1 papel color
+precio: 10.50
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1914
+descripcion: A1 papel color
+precio: 10.50
+precio: 10.50
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 303
+unidades: 1
+solicitud: 1914
+total: 10.50
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 304
+tipo: 7
+descricion: vinilo+pluma 1.30x1.30
+precio: 84.50
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1972
+descripcion: vinilo+pluma 1.30x1.30
+precio: 84.50
+precio: 84.50
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 304
+unidades: 1
+solicitud: 1972
+total: 84.50
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 305
+tipo: 7
+descricion: vinilo 1.30x1.30
+precio: 47.32
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1974
+descripcion: vinilo 1.30x1.30
+precio: 47.32
+precio: 47.32
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 305
+unidades: 1
+solicitud: 1974
+total: 47.32
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 1
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+NO insertamos varios2
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1971
+descripcion: Prueba
+precio: 1.5
+precio: 1.5
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 335
+unidades: 1
+solicitud: 1971
+total: 1.50
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 1
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+NO insertamos varios2
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1971
+descripcion: Prueba
+precio: 1.5
+precio: 1.5
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Error Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo_id: 1
+tipo_id: 7
+detalle_id: 335
+unidades: 1
+solicitud: 1971
+preciototal: 1.50
+error: Duplicate entry '1-7-335-1971' for key 'PRIMARY'
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 335
+tipo: 7
+descricion: aaa
+precio: 1
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 1971
+descripcion: aaa
+precio: 1
+precio: 1
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Error Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo_id: 1
+tipo_id: 7
+detalle_id: 335
+unidades: 1
+solicitud: 1971
+preciototal: 1.00
+error: Duplicate entry '1-7-335-1971' for key 'PRIMARY'
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 353
+tipo: 7
+descricion: prueba
+precio: 2.2
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 2534
+descripcion: prueba
+precio: 2.2
+precio: 2.2
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 353
+unidades: 2
+solicitud: 2534
+total: 4.40
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 354
+tipo: 7
+descricion: xxx
+precio: 3.2
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 2534
+descripcion: xxx
+precio: 3.2
+precio: 3.2
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 354
+unidades: 3
+solicitud: 2534
+total: 9.60
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 355
+tipo: 7
+descricion: xxss
+precio: 7
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 2534
+descripcion: xxss
+precio: 7
+precio: 7
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 355
+unidades: 12
+solicitud: 2534
+total: 84.00
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 356
+tipo: 7
+descricion: anillo 1.90x1.30
+precio: 493.4
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 2163
+descripcion: anillo 1.90x1.30
+precio: 493.4
+precio: 493.4
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 356
+unidades: 1
+solicitud: 2163
+total: 493.40
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 357
+tipo: 7
+descricion: anillo 1.90x1.30
+precio: 493.4
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 2163
+descripcion: anillo 1.90x1.30
+precio: 493.4
+precio: 493.4
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 357
+unidades: 1
+solicitud: 2163
+total: 493.40
+-------------------------
+Empezamos Varios2JSON
+
+-------------------------
+Estamos en comprobamosOperacionVarios2
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Error Query: SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+-------------------------
+Devolvemos 0
+en comprobamosOperacionVarios2 
+-------------------------
+Empezamos Varios2JSON
+insertamos varios2
+-------------------------
+Llegamos a insertamosVarios2
+insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+-------------------------
+Right Query: insert into detalle (detalle_id, tipo_id, descripcion, precio) values (?,?,?,?)
+detalle: 358
+tipo: 7
+descricion: anillo 1.90x1.30
+precio: 493.4
+-------------------------
+Error Query: SELECT trabajo_id, tipo_id, detalle_id, unidades,fecha_cierre,solicitud_id, preciototal from trabajodetalle where tipo_id=7 and solicitud_id = ? and detalle_id = ?
+solicitud: 2163
+descripcion: anillo 1.90x1.30
+precio: 493.4
+precio: 493.4
+-------------------------
+Error Query: comprobamosOperacionTrabajoVarios2
+devolvemos: 0
+-------------------------
+Empezamos Varios2JSON
+insertamosVarios2DetalleTrabajo
+-------------------------
+Llegamos a insertamosVarios2DetalleTrabajo
+insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+-------------------------
+Right Query: insert into trabajodetalle (trabajo_id, tipo_id, detalle_id, unidades, solicitud_id,preciototal) values (?,?,?,?,?,?)
+trabajo: 1
+tipo: 7
+detalle_id: 358
+unidades: 1
+solicitud: 2163
+total: 493.40
+-------------------------
+Query: comprobarVarios2ExtraJSON
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+anillo 1.90x1.30,493.40
+-------------------------
+Query: updateVarios2ExtraTrabajoJSON
+UPDATE trabajodetalle set unidades = ?, preciototal = ?, fecha_cierre = now() where trabajo_id=1 and tipo_id = 7 and solicitud_id = ? and detalle_id = ?
+0,0.00,2163,0
+-------------------------
+Query: comprobarVarios2ExtraJSON
+SELECT detalle_id, tipo_id, descripcion, precio from detalle where tipo_id=7 and  descripcion = ? and  precio = ?
+anillo 1.90x1.30,493.40
+-------------------------
+Query: updateVarios2ExtraTrabajoJSON
+UPDATE trabajodetalle set unidades = ?, preciototal = ?, fecha_cierre = now() where trabajo_id=1 and tipo_id = 7 and solicitud_id = ? and detalle_id = ?
+0,0.00,2163,0
+-------------------------

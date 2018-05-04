@@ -1,0 +1,6 @@
+/* Capa central que contiene a los formularios */
+#cssformulario{
+	position: absolute;
+    left: 250px;
+    top: 120px;
+}

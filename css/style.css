@@ -1,0 +1,701 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local(Yanone Kaffeesatz), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+/* tell the browser to render HTML 5 elements as block */
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body {
+	font: normal .85em arial, sans-serif;
+	color: #555;
+	background:#A8C1D4;
+	margin-bottom: 25px;
+	width:100%;
+}
+
+p {  
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+
+img {  
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {  
+  color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;
+}
+
+h1, h2, h4 {  
+  font: normal 200% arial, sans-serif;
+  text-shadow: 1px 1px #FFF;
+  margin: 0 0 15px 0;
+  padding: 15px 20px 5px 0;
+  color: #555;
+}
+
+h2 {  
+  font: normal 150% arial, sans-serif;
+}
+
+h4 {  
+  font: normal 150% "Yanone Kaffeesatz", arial, sans-serif;
+  padding: 5px 20px 5px 0;
+  margin: 0;
+  color: #555;
+}
+
+h3 {  
+  color: #0FCFEB;
+  padding: 10px 0 5px 0;
+  font: normal 170% arial;
+}
+
+h5 {  
+  color: #888;
+  font: italic 95% arial;
+  letter-spacing: normal;
+  padding: 0 0 15px 0;
+}
+
+h6 {  
+  padding: 5px 0 25px 0;
+}
+
+a, a:hover {  
+  outline: none;
+  text-decoration: underline;
+  color: #A4AA04;
+}
+
+a:hover {  
+  text-decoration: none;
+}
+
+blockquote {  
+  margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
+}
+
+ul {  
+  margin: 2px 0 22px 17px;
+}
+
+ul li {  
+  list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
+}
+
+ol {  
+  margin: 8px 0 22px 20px;
+}
+
+ol li {  
+  margin: 0 0 11px 0;
+}
+
+.left { 
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+
+.right { 
+  float: right; 
+  width: auto;
+  margin-left: 10px;
+}
+
+.center { 
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#main, #logo, nav, #site_content, footer {  
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+header {  
+ background: #4C340A url(../images/back.png) repeat-x;
+  height: 156px;
+}
+
+#logo {  
+  width: 875px;
+  position: relative;
+  height: 120px;
+}
+
+#logo h1, #logo h2 { 
+  font: normal 220% arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  text-shadow: none;
+  margin: 0;
+}
+
+#logo h2 { 
+  font: normal 140% 'Yanone Kaffeesatz', arial, sans-serif;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover { 
+  padding: 25px 0 0 0;
+  color: #FFF;
+  text-decoration: none;
+}
+
+#logo_text h1 a .logo_colour { 
+  color: #09D4FF;
+  text-shadow: 0;
+}
+
+#logo_text a:hover .logo_colour { 
+  color: #FFF;
+}
+
+#logo_text h2 { 
+  padding: 0 0 0 0;
+  color: #A8AA94;
+}
+
+nav {  
+  width: 935px;
+  height: 44px;
+  padding: 0 0 0 4px;
+  margin-top:-57px;
+} 
+
+#site_content {  
+  width: 885px;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  padding: 20px 27px 20px 20px;
+  background:#FFF;
+} 
+
+#sidebar_container {  
+  float: right;
+  width: 254px;
+}
+
+.sidebar {  
+  width: 220px;
+  background: #ebf6f8;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  border: 1px solid #eee;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  padding: 10px 15px 15px 15px;
+  margin: 0 0 17px 0;
+}
+
+.sidebar ul {  
+  width: 178px; 
+  padding: 4px 0 0 0; 
+  margin: 4px 0 30px 0;
+}
+
+.sidebar li {  
+  list-style: none; 
+  padding: 0 0 7px 0;
+}
+
+.sidebar li a, .sidebar li a:hover {  
+  padding: 0 0 0 25px;
+  display: block;
+} 
+
+.sidebar li a.selected {  
+  color: #444;
+} 
+
+#content {  
+  text-align: left;
+  width: 600px;
+  padding: 0 0 0 5px;
+  float: left;
+}
+  
+#content ul { 
+  margin: 2px 0 22px 0px;
+}
+
+#content ul li, .sidebar ul li { 
+  list-style-type: none;
+  background: url(../images/bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 28px;
+  line-height: 1.5em;
+}
+
+footer {
+	width: 100%;
+	font-family: 'trebuchet ms', sans-serif;
+	font-size: 100%;
+	padding: 25px 0 5px 0;
+	text-align: center;
+	background: #333;
+	color: #A8AA94;
+	vertical-align: top;
+}
+
+footer p {  
+  line-height: 1.5em;
+  padding: 0 0 10px 0;
+}
+
+footer a {  
+  color: #A8AA94;
+  text-decoration: none;
+}
+
+footer a:hover {  
+  color: #FFF;
+  text-decoration: none;
+}
+
+.form_settings { 
+  margin: 15px 0 0 0;
+}
+
+.form_settings p { 
+  padding: 0 0 4px 0;
+}
+
+.form_settings span { 
+  float: left; 
+  width: 200px; 
+  text-align: left;
+}
+  
+.form_settings input, .form_settings textarea { 
+  padding: 5px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+  
+.form_settings .submit { 
+  font: 100% arial; 
+  border: 0; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #3B3B3B; 
+  color: #FFF;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+
+.form_settings textarea, .form_settings select { 
+  font: 100% arial; 
+  width: 299px;
+}
+
+.form_settings select { 
+  width: 310px;
+}
+
+.form_settings .checkbox { 
+  margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;
+}
+
+.separator { 
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;
+}
+  
+table { 
+  margin: 10px 0 30px 0;
+}
+
+table tr th, table tr td { 
+  background: #3B3B3B;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;
+}
+  
+table tr td { 
+  background: #E5E5DB;
+  color: #47433F;
+  border-top: 1px solid #FFF;
+}
+
+/* scroll to top */
+#scroll { 
+  position: relative; 
+  width: 900px;
+  margin: 0 auto;
+  bottom: 15px; 
+  right: 0;
+  background: red;
+  padding: 0;
+}
+  
+#scroll a { 
+  float: right;
+  margin: 0 0 0 0; 
+  padding: 0 0 0 0;
+}
+  
+#scroll a img { 
+  float: right;
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+/**
+Stylesheet for SooperFish by www.SooperThemes.com
+Author: Jurriaan Roelofs
+**/
+
+/* Configuration of menu width */
+html body ul.sf-menu ul,html body ul.sf-menu ul li { 
+  width: 250px;
+}
+
+html body ul.sf-menu ul ul { 
+  margin: 0 0 0 200px;
+}
+
+/* Framework for proper showing/hiding/positioning */
+ul.sf-menu,ul.sf-menu * { 
+  margin: 0;
+  padding: 0;
+}
+
+ul.sf-menu { 
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+  padding:10px 0 1px;
+}
+  
+ul.sf-menu li:hover { 
+  visibility: inherit; /* fixes IE7 'sticky bug' */ 
+}
+
+ul.sf-menu a { 
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu ul { 
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  top: auto;
+  left: -999999px;
+}
+  
+ul.sf-menu ul a { 
+  zoom: 1; /* IE6/7 fix */ 
+}
+
+ul.sf-menu ul li { 
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;
+}
+  
+ul.sf-menu ul ul { 
+  top: 0;
+  margin: 0 0 0 150px;
+}
+
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+  left: auto;
+}
+  
+ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+  left: -999999px;
+}
+
+/* autoArrows CSS */
+span.sf-arrow { 
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  display: block;
+  background: url(../images/arrows-black.png) no-repeat 0 0;
+  overflow: hidden; /* making sure IE6 doesn't overflow and expand the box */
+  font-size: 1px;
+}
+
+ul ul span.sf-arrow { 
+  right: 10;
+  top: 20px;
+  background-position: 0 100%;
+}
+
+/* Theming the menu */
+ul#nav { 
+  float: left;
+}
+
+ul#nav ul { 
+  background: #14446E;
+  margin-top: 0;
+  border: 1px solid #036;
+  padding-left:20px;
+}
+
+ul#nav li a { 
+  padding:9px 25px 10px 25px;
+  font: 155% 'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+  text-shadow: 1px 1px #000;
+  text-decoration:none;
+  color: #fff;
+  margin-top:-10px;
+  height:37px;
+}
+
+ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected { 
+  background: #FFF;
+  color:#000;
+  text-shadow: 1px 1px #fff;
+}
+
+ul#nav li.selected a.active{ 
+  color:#000;
+  text-shadow: 1px 1px #fff;
+
+}
+
+
+/*SNS*/
+
+#logo-slogan{
+	color: #14446E;
+    display: inline;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+	position:absolute;
+	top:62px;
+	left:100px;	
+}
+
+#logo-enea{
+	display:inline;
+	width:87px;
+	height:87px;
+}
+
+#menu-superior{
+	position:absolute;
+	width:870px;
+	text-aling: right;
+	font-family:'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+	font-size:15px;
+	top:10px;
+	left:50%;
+	margin-left:-435px
+
+}
+
+#menu-superior ul{ list-style:none; color:#999; width:870px; text-align:right; }
+#menu-superior ul li{ border-right: 1px solid #999; display:inline; padding-right:10px; padding-left:10px; }
+
+#socios img{margin-right:15px; margin-bottom:25px;}
+
+.producto{
+	width:165px;
+	display:inline-block;
+	margin-right:15px;
+}
+
+.producto span{ font-size:10px; color: #14446E; text-align:center; display:block;}
+.producto span a{color: #14446E; text-decoration:none;	text-align:center;}
+.producto span a:link{color: #14446E; text-decoration:none; }
+.producto span a:visited{color: #14446E; text-decoration:none;}
+.producto span a:hover{color: #14446E; text-decoration:underline;}
+
+#links-footer{
+	width:100%;
+	display:inline;
+	margin-bottom:25px;
+	
+}
+
+.bloque-links-footer{
+	width:220px;
+	height:auto;
+	text-align:left;
+	margin-right:25px;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.bloque-links-footer h6{ width:220px; display:block; color:#A8AA94; font-size:16px; font-weight:normal; padding:0; margin:0 0 15px 0; border-bottom:1px solid #A8AA94;}
+.bloque-links-footer h6 a{ color:#A8AA94; text-decoration:none;}
+.bloque-links-footer h6 a:link{ color:#A8AA94; text-decoration:none;}
+.bloque-links-footer h6 a:visited{ color:#A8AA94; text-decoration:none;}
+.bloque-links-footer h6 a:hover{ color:#A8AA94; text-decoration:none;}
+
+
+.bloque-links-footer p{ padding:0; margin:0; }
+
+.bloque-links-footer a{ width:220px; display:block; color:#FFC; text-decoration:none; }
+.bloque-links-footer a:links{ color:#FFC; text-decoration:none; }
+.bloque-links-footer a:visited{ color:#FFC; text-decoration:none; }
+.bloque-links-footer a:active{ color:#FFC; text-decoration:none; }
+.bloque-links-footer a:hover{ color:#FFC; text-decoration:underline; }
+
+#copyright{ margin-top:13px; }
+.konica-minolta{ text-align:center;}
+
+#breadcrumb{ 
+	font-size:9px;
+	color: #666;
+	text-align:right;
+}
+
+#breadcrumb a{ text-decoration:none; color:#333;}
+#breadcrumb a:link{ text-decoration:none; color:#333;}
+#breadcrumb a:active{ text-decoration:none; color:#333;}
+#breadcrumb a:visited{ text-decoration:none; color:#333;}
+#breadcrumb a:hover{ text-decoration:underline; color:#333;}
+
+/*OFERTAS*/
+
+#bloque-ofertas{
+	width:600px;
+	margin-bottom:25px;
+
+}
+
+#bloque-ofertas .ofertas{
+	width:155px;
+	text-align:center;
+	border: 1px solid #333;
+	padding:5px;
+	margin-right:20px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+#bloque-ofertas .ofertas .titProd{ font-weight:bold; font-size:14px;  margin-bottom:7px;}
+#bloque-ofertas .ofertas .imgProd{ font-size:10px; width:155px; border:none; margin-bottom:7px;}
+#bloque-ofertas .ofertas .caractProd{ font-weight:bold; font-size:11px;  border:none; text-align:left; }
+#bloque-ofertas .ofertas .caractProd ul{ font-weight:normal; border:none; text-align:left; margin-top:7px;}
+#bloque-ofertas .ofertas .caractProd ul li{ list-style-image:none; }
+#bloque-ofertas .ofertas .pvpProd{ font-size:14px; width:155px; font-weight:bold;}
+
+.ofertas-renting{ margin-top:25px;}
+.ofertas-renting img{ display:inline; margin-right:10px;}
+.ofertas-renting p{ display:inline;}
+
+#texto_mas_info h1{
+	font-family:'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+	color:#14446E;
+	font-size:25px;
+	padding:0;
+	margin:0 0 15px 0;
+	font-weight:normal;
+	text-align:center;
+}
+#texto_mas_info .bloque-texto{ width:275px; float: left; margin-right:25px; }
+#texto_mas_info .bloque-texto h2{
+	display:block;
+	margin:10px 0 0 0 ;
+	font-size:15px !important;
+	padding:0;
+	font-weight:bold;
+}
+
+#texto_mas_info .bloque-texto p{
+	margin-bottom:10px;
+	padding:0;
+	margin-top:10px;
+}
+
+#texto_mas_info .bloque-texto p a{ color:#A4AA04; text-decoration:underline; }
+#texto_mas_info .bloque-texto p a:link{ color:#A4AA04; text-decoration:underline; }
+#texto_mas_info .bloque-texto p a:visited{ color:#A4AA04; text-decoration:underline; }
+#texto_mas_info .bloque-texto p a:hover{ color:#A4AA04; text-decoration:none; }
+
+#content .bloque-extra { float:none; display:block;}
+#content .bloque-extra h2{	
+	margin:10px 0 0 0 ;
+	font-size:15px !important;
+	padding:0;
+	font-weight:bold;
+}
+.bloque-extra p{
+	margin-bottom:10px;
+	padding:0;
+	margin-top:10px;
+}
+#slogan{
+	position:absolute;
+	width:900px;
+	left:50%;
+	margin-left:-450px;
+	text-align:right;
+	top:70px;
+}
+
+#slogan h1{
+	font-family:'Yanone Kaffeesatz',helvetica,arial,verdana,sans;
+	color:#14446E;
+	font-size:13px;
+	padding:0;
+	margin:0;
+	font-weight:normal;
+}

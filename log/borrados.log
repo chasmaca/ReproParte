@@ -1,0 +1,7 @@
+Tuesday 13th of March 2018 09:09:37 PM
+Fichero: delete/borrarDepartamento.php
+Metodo: borrarDepartamento
+Query: update departamento set markfordelete = 1 where departamento_id = ?
+Parameter: 285
+Ejecucion Correcta
+-------------------------
